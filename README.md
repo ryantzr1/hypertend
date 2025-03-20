@@ -45,7 +45,7 @@ A comprehensive health monitoring dashboard with real-time data visualization an
 3. Install dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit pandas plotly langchain-community langchain-openai langchain-iris langchain python-dotenv
    ```
 
 4. Create a `.env` file with your OpenAI API key:
@@ -66,7 +66,7 @@ docker run -d --name iris-comm -p 1972:1972 -p 52773:52773 -e IRIS_PASSWORD=demo
 1. Start the application:
 
    ```bash
-   streamlit run app.py
+   ./venv/bin/streamlit run app.py
    ```
 
 2. The dashboard will open in your browser at http://localhost:8501
